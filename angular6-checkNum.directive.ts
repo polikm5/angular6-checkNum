@@ -34,3 +34,7 @@ export class NumFormatDirective implements OnInit {
       $(this.el.natvieElement).trigger('change');
    }
 }
+
+
+// 使用
+<input type="text" [numFormat]="2" />
